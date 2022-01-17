@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'varelaRound' ;
+    src: url('./fonts/VarelaRound-Regular.ttf');
+}
+
+body{
+    font-family: 'varelaRound',sans-serif;
+    padding: 20px 0 50px 0;
+    background-color: #F2F1F7;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1,4em;
+}
+
+h2, h3{
+    text-align: center;
+}
+/* Les cartes */
+.projects{
+    width: 80%;
+    margin: auto;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    border: 2px solid orangered;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.card__img{
+    width: 200px;
+}
+ .card__text{
+     text-align: center;
+ }
+
+ /* Le formulaire */
+
+ .new-project{
+     margin: 100px auto 0 auto;
+     width: 50%;
+     background-color: #FAD6D4;
+     border-radius: 10px;
+     padding: 20px 50px 50px 50px;
+ }
+
+ .new-project-form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1,1em;
+    margin: 20px 0;
+}
+
+.new-project-form__input-group{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1,1em;
+    margin: 20px 0;
+}
+
+.new-project-form__input-group input{
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+    height: 2em;
+    font-family: inherit;
+}
+
+.new-project-form__input-group input:focus{
+   outline:solid red 1px;
+   border-radius: 8px;
+}
