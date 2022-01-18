@@ -87,3 +87,31 @@ flex-wrap: wrap;
    outline:solid red 1px;
    border-radius: 8px;
 }
+
+.new-project-form__input-group--textarea{
+flex-direction: column;
+align-items: center;
+}
+
+.new-project-form__input-group--textarea textarea{
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: inherit ;
+    border: none;
+    width: 80%;
+}   
+
+.new-project-form__input-group--textarea textarea:focus{
+    outline:solid red 1px;
+}   
+
+.new-project__button{
+    width: 50%;
+    margin: 20px auto;
+    background-color: #FBA5A3;
+    border: none;
+    border-radius: 5px;
+    font-size: 1,2em;
+    font-family: inherit;
+    height: fit content;
+}
